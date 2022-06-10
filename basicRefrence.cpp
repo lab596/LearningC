@@ -35,9 +35,15 @@ int main() {
   //while loop - ex.
   
   while (num < 10){
-    cout<<num;
+    cout<<num<<endl;
     num++;
   }
+
+  //casting
+  int number = 5;
+  double nume = static_cast<double>(number);
+  auto product = nume * 21 + 7.5;    //becomes a double due to casting to double
+  cout<<product;
   
   return 0;
 }
